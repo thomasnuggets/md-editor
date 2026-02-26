@@ -25,7 +25,13 @@ A minimalist, Typora-inspired Markdown editor for macOS — built entirely with 
 
 ## Screenshots
 
-> *Coming soon*
+**Formatted mode** — live rendering as you type, 680px column, glassmorphism UI
+
+![MD Editor — Formatted mode](screenshots/editor-formatted.png)
+
+**Source mode** (`⌘\`) — raw Markdown, monospace font
+
+![MD Editor — Source mode](screenshots/editor-source.png)
 
 ---
 
