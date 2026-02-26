@@ -1,0 +1,27 @@
+name: MDEditor
+options:
+  bundleIdPrefix: com.thomasgermain
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+
+targets:
+  MDEditor:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: Sources
+    resources:
+      - path: Resources
+    settings:
+      base:
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        SWIFT_VERSION: "5.9"
+        PRODUCT_BUNDLE_IDENTIFIER: com.thomasgermain.mdeditor
+        INFOPLIST_FILE: Resources/Info.plist
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Manual
+        ENABLE_HARDENED_RUNTIME: NO
+        CODE_SIGN_ENTITLEMENTS: Resources/MDEditor.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
