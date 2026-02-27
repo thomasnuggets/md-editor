@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct MDEditorApp: App {
+struct DotMDApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @StateObject private var viewModel = EditorViewModel()
 
