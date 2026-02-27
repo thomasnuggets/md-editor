@@ -27,8 +27,8 @@ struct MarkdownTextEditor: NSViewRepresentable {
         textView.isAutomaticSpellingCorrectionEnabled = false
         textView.isAutomaticTextReplacementEnabled = false
         textView.isAutomaticLinkDetectionEnabled = false
-        textView.backgroundColor = .clear
-        textView.drawsBackground = false
+        textView.backgroundColor = NSColor.windowBackgroundColor
+        textView.drawsBackground = true
         textView.textContainerInset = NSSize(width: 0, height: 32)
         textView.isVerticallyResizable = true
         textView.isHorizontallyResizable = false
